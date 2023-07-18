@@ -32,7 +32,8 @@
         android:id="@+id/button_detail"
         android:layout_width="300dp"
         android:layout_height="50dp"
-        android:text="Add to cart" />
+        android:text="Add to cart"
+        android:backgroundTint="@color/black"/>
 
 
 </androidx.appcompat.widget.LinearLayoutCompat>

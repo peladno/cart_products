@@ -10,7 +10,7 @@ class dataCartAdapter(private val dataList: List<data>) : RecyclerView.Adapter<d
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): dataCartViewHolder {
         val inflater = LayoutInflater.from(parent.context)
-        val view = inflater.inflate(R.layout.item, parent, false)
+        val view = inflater.inflate(R.layout.cart_item, parent, false)
         return dataCartViewHolder(view)
     }
 
